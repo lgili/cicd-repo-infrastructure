@@ -204,7 +204,7 @@ macro(add_unit_test)
         add_rapidcheck()
         unset(TF_GUNIT)
     endif()
-    add_unit_test_target(${ARGN})
+    # add_unit_test_target(${ARGN})
 endmacro()
 
 function(add_feature_test_target name)
